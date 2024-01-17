@@ -15,7 +15,7 @@ const IndexView = () => {
 
 
     useEffect(() => {
-        axios.get("https://api.chyan.moe/openapi.json")
+        axios.get("/openapi.json")
             .then(response => {
                 const ApiData = response.data;
                 setVersion(ApiData["info"]["version"])
@@ -63,7 +63,7 @@ const IndexView = () => {
                         <div className={`tracking-[0.2rem] text-sm hidden sm:flex font-[gh-mona]`}>{t('sub')}
                         </div>
                     </div>
-                    <span className={`absolute px-1.5 py-0.5 -top-2.5 -right-4 bg-white bg-opacity-70 backdrop-blur-3xl border rounded-2xl
+                    <span className={`absolute px-1.5 py-0.5 -top-2.5 -right-8 bg-white bg-opacity-70 backdrop-blur-3xl border rounded-2xl
                 text-sm text-pink-800 font-mono font-bold`}>{version}</span>
                 </div>
                 <div className={`flex items-center justify-between gap-8 mt-20 font-[gh-mona]`}>

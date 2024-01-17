@@ -7,7 +7,7 @@ from starlette.responses import FileResponse
 app = FastAPI(
     title="Miourasaki's Public API",
     description="For all that is in the stardust",
-    version="24w02b",
+    version="ArtLibrary",
     openapi_url='/openapi.json',
     redoc_url="/redoc",
     docs_url="/swagger",
@@ -17,6 +17,10 @@ app = FastAPI(
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
+
+from urls import router
+
+app.include_router(router, prefix="")
 
 
 @app.get('/favicon.ico', include_in_schema=False)
