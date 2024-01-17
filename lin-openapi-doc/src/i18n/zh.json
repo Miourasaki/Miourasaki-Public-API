@@ -1,0 +1,20 @@
+{
+  "lang": "简体中文",
+  "title": "Miourasaki's Public API",
+  "sub": "For all that is in the stardust",
+  "in": "副标题和简介被魔理沙偷走了",
+  "data": {
+    "link": {
+      "document": "文档",
+      "terminal": "终端",
+      "about": "关于",
+      "support": "支持",
+      "redoc": "ReDoc",
+      "openapi": "OpenAPI"
+    },
+    "count": {
+      "total": "接口总访问数",
+      "total_today": "今天总访问数"
+    }
+  }
+}

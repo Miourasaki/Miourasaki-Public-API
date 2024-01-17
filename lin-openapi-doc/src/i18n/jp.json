@@ -1,0 +1,15 @@
+{
+  "lang": "日本語",
+  "title": "Miourasaki's Public API",
+  "in": "サブタイトルと紹介文は魔理沙に盗まれました",
+  "data": {
+    "link": {
+      "document": "書類",
+      "terminal": "ターミナル",
+      "about": "について",
+      "support": "サポート",
+      "redoc": "Redoc",
+      "openapi": "OpenAPI"
+    }
+  }
+}

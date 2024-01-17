@@ -1,0 +1,30 @@
+# Logs
+lin-openapi-doc/logs
+lin-openapi-doc/*.log
+lin-openapi-doc/npm-debug.log*
+lin-openapi-doc/yarn-debug.log*
+lin-openapi-doc/yarn-error.log*
+lin-openapi-doc/pnpm-debug.log*
+lin-openapi-doc/lerna-debug.log*
+lin-openapi-doc/node_modules
+
+#dist
+#dist-ssr
+lin-openapi-doc/*.local
+
+.venv
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+

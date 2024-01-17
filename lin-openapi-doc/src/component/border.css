@@ -1,0 +1,57 @@
+@keyframes wtl {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+@keyframes htl {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+.wtl {
+    animation: wtl 1000ms forwards ease-in-out;
+}
+.htl {
+    animation: htl 700ms forwards ease-in;
+}
+
+@keyframes wbr {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+@keyframes hbr {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+.wbr {
+    animation: wbr 600ms forwards ease-in-out;
+}
+.hbr {
+    animation: hbr 1000ms forwards ease-in-out;
+}
+
+
+.bg-text {
+    color: white; /* 文本颜色 */
+    /*filter: brightness(0.5) saturate(0) invert(1); !* 设置背景滤镜效果 *!*/
+}

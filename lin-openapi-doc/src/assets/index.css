@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gh-mona;
+    src: url("./Mona-Sans.woff2");
+}
+
+body.bg-remilia {
+    background-image: url(./background.jpg);
+}
+body.bg-random {
+    background-image: url(https://loliapi.com/acg);
+}
+
+body {
+    overflow: hidden;
+    /*background-image: ;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#root::-webkit-scrollbar {
+    width: 0px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate 10s infinite linear;
+    font-family: monospace;
+    z-index: 0;
+}
+
+.rotate-20s {
+    animation: rotate 25s infinite linear;
+    font-family: monospace;
+    z-index: 0;
+}
+
+@keyframes init {
+    from {
+        transform: translateY(-5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0rem);
+        opacity: 100;
+    }
+}
+
+.init {
+    animation: init 1s forwards ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(10%);
+    }
+    50% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(10%);
+    }
+}
+.float {
+    animation: float 3s infinite linear;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #cc326a;
+}
+
+
+
+
+
+/*terminal*/
+.overt ::-webkit-scrollbar {
+    width: 5px;
+}
+.overt ::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+.overt ::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+#terminalEditor {
+    font-size: 16px;
+}

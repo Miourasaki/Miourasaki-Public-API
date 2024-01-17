@@ -1,0 +1,20 @@
+{
+  "lang": "English",
+  "title": "Miourasaki's Public API",
+  "sub": "For all that is in the stardust",
+  "in": "The subtitle and synopsis were stolen by Marisa",
+  "data": {
+    "link": {
+      "document": "Document",
+      "terminal": "Terminal",
+      "about": "About",
+      "support": "Support",
+      "redoc": "Redoc",
+      "openapi": "OpenAPI"
+    },
+    "count": {
+      "total": "API access",
+      "total_today": "API access today"
+    }
+  }
+}
